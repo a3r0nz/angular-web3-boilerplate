@@ -1,0 +1,7 @@
+<button *ngIf="walletAddress" class="btn btn-outline-dark" (click)="disconnectWallet()">
+  {{walletAddress ? getShrinkWalletAddress(): 'Connect Wallet'}}
+</button>
+
+<button *ngIf="!walletAddress" class="btn btn-outline-dark" (click)="connectWallet()">
+  Connect Wallet
+</button>
