@@ -1,9 +1,9 @@
 {
   "name": "angular-web3-boilerplate",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --port 4402",
+    "start": "ng serve --port 4200",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
